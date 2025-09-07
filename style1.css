@@ -29,7 +29,7 @@
             padding: 0 20px;
         }
 
-        /* Header Styles */
+/* Header Styles */
         header {
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: var(--text-light);
@@ -104,7 +104,7 @@
             transition: var(--transition);
         }
 
-        /* Hero Section */
+/* Hero Section */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(beranda\ swb.jpg);
             background-size: cover;
@@ -149,7 +149,7 @@
             transform: translateY(-2px);
         }
 
-        /* About Section */
+/* About Section */
         .about {
             padding: 5rem 0;
             background-color: #f8f9fa;
@@ -189,7 +189,7 @@
             text-align: justify;
         }
 
-        /* Vision Mission */
+/* Vision Mission */
         .vision-mission {
             padding: 5rem 0;
         }
@@ -221,8 +221,23 @@
 
         .krida-grid {
             display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+        }
+
+        /* .krida-grid {
+            display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 2rem;
+        } */
+
+        .krida-grid a{
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
         }
 
         .krida-card {
@@ -251,7 +266,7 @@
             height: 70px;
         }
 
-        /* Activities */
+/* Activities */
         .activities {
             padding: 5rem 0;
             background-color: #ffffff;
@@ -284,7 +299,7 @@
             font-size: 1.5rem;
         }
 
-        /* Gallery */
+/* Gallery */
         .gallery {
             padding: 5rem 0;
             background-color: #f8f9fa;
@@ -314,7 +329,7 @@
             transform: scale(1.1);
         }
 
-        /* Footer */
+/* Footer */
         footer {
             background: var(--primary-color);
             color: var(--text-light);
@@ -338,7 +353,7 @@
             border-top: 1px solid rgba(255,255,255,0.1);
         }
 
-        /* Responsive Design */
+/* Responsive Design */
         @media (max-width: 768px) {
             .nav-menu {
                 position: fixed;
