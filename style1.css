@@ -174,8 +174,8 @@
         }
 
         .about-image img {
-            width: 50vh;
-            height: 50vh;
+            width: 40vh;
+            height: 40vh;
             border-radius: 10px;
             /* box-shadow: 0 10px 30px rgba(0,0,0,0.1); */
         }
@@ -235,6 +235,11 @@
             margin: 0 auto 1rem;
             color: var(--text-light);
             font-size: 1.5rem;
+        }
+        
+        .krida-icon-img {
+            width: 70px;
+            height: 70px;
         }
 
         /* Activities */
