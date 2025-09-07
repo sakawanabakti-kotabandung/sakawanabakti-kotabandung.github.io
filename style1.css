@@ -153,7 +153,6 @@
         .about {
             padding: 5rem 0;
             background-color: #f8f9fa;
-            height: 100vh;
         }
 
         .section-title {
@@ -176,8 +175,8 @@
         }
 
         .about-image img {
-            width: 375px;
-            height: 375px;
+            width: 350px;
+            height: 350px;
             border-radius: 5px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
