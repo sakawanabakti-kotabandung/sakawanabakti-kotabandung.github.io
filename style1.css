@@ -164,7 +164,7 @@
 
         .section-title h2 {
             font-size: 2.5rem;
-            margin-bottom: 0.5rem;
+            /* margin-bottom: 0.5rem; */
         }
 
         .about-content {
@@ -213,7 +213,7 @@
             margin-bottom: 1rem;
         }
 
-        /* krida */
+/* krida */
         .krida {
             padding: 5rem 0;
             background-color: #f8f9fa;
@@ -222,7 +222,7 @@
         .krida-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 0.5rem;
+            /* gap: 0.5rem; */
         }
 
         /* .krida-grid {
